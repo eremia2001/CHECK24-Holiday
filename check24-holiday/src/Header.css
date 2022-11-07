@@ -1,0 +1,51 @@
+.header
+{
+    color: white;
+    background-color:#063773 ;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+}
+.header-logo
+{
+    width: 170px;
+    margin-left: 50px;
+}
+
+.header-searchField
+{
+    width: 900px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+.header-activity-container
+{
+    display: flex;
+    flex: 1;
+    justify-content:space-around;
+}
+
+.header-activity
+{
+    display: flex;
+    gap: 5px;
+}
+
+.header-activity-text
+{
+    font-weight: bold;
+}
+.header-activity-logo
+{
+    width: 25px;
+}
+.whatsapp
+{
+    filter: invert(97%) sepia(3%) saturate(13%) hue-rotate(100deg) brightness(104%) contrast(103%);
+}

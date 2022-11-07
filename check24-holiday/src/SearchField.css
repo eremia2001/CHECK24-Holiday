@@ -1,0 +1,39 @@
+.mainBody
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.searchField
+{
+    
+    background-color: #ffbb1c;
+    width: 950px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.searchField-horInput
+{
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    
+}
+.input
+{
+    width: 300px;
+}
+
+.inputContainer
+{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
